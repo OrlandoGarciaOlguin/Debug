@@ -36,23 +36,25 @@
 // console.log(contenedor);
 
  // -- Arreglos de clave valor --
-var personas = {
-    "nombre" : "Emmanuel",
-    "apellido" : "Torres",
-    "edad" : 26,
+var persona = {
+    "nombre" : "Orlando",
+    "apellidoP" : "Garcia",
+    "apellidoM" : "Olguin",
+    "edad" : 19,
     "lenguajes":{
         "lenguaje1" : "JavaScript",
-        "lenguaje2" : "PHP",
+        "lenguaje2" : "Python",
         "lenguaje3" : "C#"        
     },
+    "Educacion":{
+        "Universidad" : "Universidad Politecnica de Tecamac",
+        "Carrera" : "Ingenieria en Software",
+        "Cuatrimestre" : "4to Cuatrimestre"        
+    },
     "música": {
-        "cancion1" : "La vida es bella",
-        "cancion2" : "La vida es bella",
-        "cancion3" : "La vida es bella",
-        "genero":{
-            "rock":"banda 1",
-            "electronica": "banda 2"
-        }
+        "cancion1" : "Creep",
+        "cancion2" : "I knew you were trouble",
+        "cancion3" : "Cardigan"        
     }
 }
-console.log(personas);
+console.log(persona);
